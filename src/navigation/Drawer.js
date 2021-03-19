@@ -5,7 +5,7 @@ const Drawer = createDrawerNavigator();
 
 const DrawerNavigator = () => {
   return (
-    <Drawer.Navigator>
+    <Drawer.Navigator initialRouteName="StackNavigator">
       <Drawer.Screen name="StackNavigator" component={StackNavigator} />
     </Drawer.Navigator>
   );
