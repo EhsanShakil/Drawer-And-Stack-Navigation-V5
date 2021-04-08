@@ -6,10 +6,10 @@ import Home from './src/screens/Home';
 
 const App = () => {
   return (
-    // <NavigationContainer>
-    //   <DrawerNavigator />
-    // </NavigationContainer>
-    <Home />
+    <NavigationContainer>
+      <DrawerNavigator />
+    </NavigationContainer>
+    // <Home />
   );
 };
 
